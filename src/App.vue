@@ -1,7 +1,19 @@
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+import * as locales from "@nuxt/ui/locale";
+
+const { locale } = useI18n();
+</script>
+
 <template>
   <Suspense>
-    <UApp>
-      <UHeader>
+    <UApp :locale="locales[locale]">
+      <RouterView />
+    </UApp>
+  </Suspense>
+</template>
+
+<!-- <UHeader>
         <template #left>
           <RouterLink to="/">
             <AppLogo class="w-auto h-6 shrink-0" />
@@ -45,7 +57,4 @@
             variant="ghost"
           />
         </template>
-      </UFooter>
-    </UApp>
-  </Suspense>
-</template>
+      </UFooter> -->
