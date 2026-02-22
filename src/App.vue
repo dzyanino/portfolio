@@ -1,13 +1,22 @@
 <script setup lang="ts">
+import { computed } from "vue";
 import { useI18n } from "vue-i18n";
-import * as locales from "@nuxt/ui/locale";
+import { en, fr } from "@nuxt/ui/locale";
 
 const { locale } = useI18n();
+
+const uiLocale = computed(() => {
+  switch (locale.value) {
+    case "en": return en;
+    case "fr": return fr;
+    default:  return en;
+  }
+});
 </script>
 
 <template>
   <Suspense>
-    <UApp :locale="locales[locale]">
+    <UApp :locale="uiLocale">
       <RouterView />
     </UApp>
   </Suspense>
