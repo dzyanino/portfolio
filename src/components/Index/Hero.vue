@@ -8,7 +8,7 @@ const { t } = useI18n();
 const links = computed<ButtonProps[]>(() => [
   {
     label: t("hero.main-button"),
-    to: "https://github.com/dzyanino",
+    to: "#contact",
     icon: "i-lucide-wrench",
   },
   {
