@@ -28,11 +28,15 @@ const items = computed<NavigationMenuItem[]>(() => [
   },
 ]);
 
+function moveToTop() {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
 watch(
   () => route.hash,
   (newHash) => {
     if (!newHash) {
-      window.scrollTo({ top: 0, behavior: "smooth" });
+      moveToTop();
       return;
     }
 
@@ -52,8 +56,10 @@ watch(
 </script>
 
 <template>
-  <UHeader title="dzyanino">
-    <!-- <template #title>dzyanino</template> -->
+  <UHeader>
+    <template #title>
+      <span @click="moveToTop">dzyanino</span>
+    </template>
 
     <UNavigationMenu :items variant="link">
       <template #item="{ item }">
