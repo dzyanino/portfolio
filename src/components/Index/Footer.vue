@@ -23,9 +23,7 @@ const items: NavigationMenuItem[] = [
 <template>
   <UFooter>
     <template #left>
-      <p class="text-muted text-sm">
-        Copyright © 2026 Doneli Dzyanino MANASINTSOA
-      </p>
+      <p class="text-muted text-sm">© 2026 Doneli Dzyanino MANASINTSOA</p>
     </template>
 
     <UNavigationMenu :items="items" variant="link" />

@@ -32,17 +32,17 @@ export const i18nConfigs: I18nOptions = {
           {
             title: "I'm REALLY interested in computer graphics",
             description:
-              "We can talk about it all day. I still have so many things I don't know about that and on rendering processes.",
+              "We can talk about it all day. I still have so many things I don't know about it.",
             icon: "i-lucide-shapes",
           },
           {
             title: "You guessed it right, gaming!",
             description:
-              "What can be a software developer without its passion for gaming.",
+              "What can be a software developer without their passion for gaming.",
             icon: "i-lucide-gamepad-2",
           },
           {
-            title: "I do some drawings BTW ",
+            title: "I do some drawings btw ",
             description:
               "Still far from what I want to achieve, but… well, it's honest work.",
             icon: "i-lucide-pencil-line",
@@ -54,7 +54,7 @@ export const i18nConfigs: I18nOptions = {
         title: "Tools I use so far…",
         description: "Always trying to improve myself.",
         spotlight: {
-          title: "Currently learing Godot",
+          title: "Currently learning Godot",
           description: "In my journey of wanting to make my own games.",
         },
         skills: [
@@ -145,7 +145,7 @@ export const i18nConfigs: I18nOptions = {
           {
             title: "L'infographie m'interrèsse BEAUCOUP",
             description:
-              "On pourrait en parler pendant des heures. J’ai encore plein de choses à découvrir dessus, ou sur leur processus de rendu.",
+              "On pourrait en parler pendant des heures. J’ai encore plein de choses à découvrir dessus.",
             icon: "i-lucide-shapes",
           },
           {
