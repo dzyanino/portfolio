@@ -9,5 +9,8 @@ const locales = ref<SelectItem[]>([
 </script>
 
 <template>
-  <USelect v-model="$i18n.locale" :items="locales" />
+  <USelect
+    v-model="$i18n.locale"
+    :items="locales"
+  />
 </template>

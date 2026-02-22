@@ -33,7 +33,7 @@ const links = computed<ButtonProps[]>(() => [
         src="/src/assets/images/hero.png"
         alt="hero-image"
         class="rounded-lg ring ring-default"
-      />
+      >
     </div>
   </UPageHero>
 </template>

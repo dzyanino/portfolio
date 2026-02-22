@@ -21,6 +21,6 @@ const { t, tm } = useI18n();
       height="647"
       alt="Illustration"
       class="w-full rounded-lg"
-    />
+    >
   </UPageSection>
 </template>
