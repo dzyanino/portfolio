@@ -24,25 +24,29 @@ export const i18nConfigs: I18nOptions = {
         "alt-button": "More about me",
       },
       about: {
-        headline: " Who am I?",
-        title: "May be your next hire / co-worker",
+        headline: "󱇫 All right, let's do this one last time.",
+        title: "My name is Doneli D. MANASINTSOA",
         description:
-          "From my full name, Doneli Dzyanino MANASINTSOA, I'm from the « Red Island », a.k.a, Madagascar . I like to think about how things work under the pile of abstractions, instead of how they look.",
+          "I'm from the « Red Island », a.k.a, Madagascar. And for the past 20+ years, I've been exploring quite a few interests.",
         features: [
           {
-            title: "I'm REALLY interested in computer graphics",
-            description:
-              "We can talk about it all day. I still have so many things I don't know about it.",
+            title: "Computer graphics",
+            description: "We can talk about it all day.",
             icon: "i-lucide-shapes",
           },
           {
-            title: "You guessed it right, gaming!",
+            title: "Gaming!",
             description:
               "What can be a software developer without their passion for gaming.",
             icon: "i-lucide-gamepad-2",
           },
           {
-            title: "I do some drawings btw ",
+            title: "Manga and light novels",
+            description: "Yeah just an average weeb.",
+            icon: "i-lucide-book-open-text",
+          },
+          {
+            title: "And some drawings btw",
             description:
               "Still far from what I want to achieve, but… well, it's honest work.",
             icon: "i-lucide-pencil-line",
@@ -137,25 +141,29 @@ export const i18nConfigs: I18nOptions = {
         "alt-button": "En savoir plus sur moi",
       },
       about: {
-        headline: " Qui suis-je ?",
-        title: "Peut-être votre prochain collègue / recrue",
+        headline: "󱇫 Allez, je vous la refais une dernière fois.",
+        title: "Je m'appelle Doneli Dzyanino MANASINTSOA",
         description:
-          "De mon nom complet, Doneli Dzyanino MANASINTSOA, je viens de la « Grande Île », alias Madagascar . J'aime passer mon temps à me demander comment les choses marchent en arrière plan et ne pas penser au premier.",
+          "Je viens de la « Grande Île », alias Madagascar. Et pendant les +20 dernières années, j'ai exploré pas mal de centres d'intérêts.",
         features: [
           {
-            title: "L'infographie m'interrèsse BEAUCOUP",
-            description:
-              "On pourrait en parler pendant des heures. J’ai encore plein de choses à découvrir dessus.",
+            title: "L'infographie",
+            description: "On pourrait en parler pendant des heures.",
             icon: "i-lucide-shapes",
           },
           {
-            title: "Vous vous en doutiez, le gaming !",
+            title: "Le gaming !",
             description:
               "Difficile d’être développeur logiciel sans sa passion pour les jeux vidéo.",
             icon: "i-lucide-gamepad-2",
           },
           {
-            title: "Je dessine un peu aussi ",
+            title: "Les mangas et light novels",
+            description: "Ouais juste un weeb comme les autres.",
+            icon: "i-lucide-book-open-text",
+          },
+          {
+            title: "Et un peu de dessin aussi",
             description:
               "Je suis encore loin de mon but, mais bon… je fais de mon mieux.",
             icon: "i-lucide-pencil-line",
