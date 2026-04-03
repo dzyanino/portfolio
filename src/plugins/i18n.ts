@@ -54,45 +54,45 @@ export const i18nConfigs: I18nOptions = {
         ],
       },
       skills: {
-        headline: " I don't know everything, I only know what I know. ",
+        headline: " I don't know everything, I just know what I know.",
         title: "Tools I use so far…",
-        description: "Always trying to improve myself.",
-        spotlight: {
-          title: "Currently learning Godot",
-          description: "In my journey of wanting to make my own games.",
-        },
+        description: "Trying to improve myself.",
         skills: [
           {
-            date: "Web Technologies",
-            title: "Frontend",
+            title: "Programming languages",
+            description: "JavaScript/TypeScript - Go - C/C++ - Dart",
+            icon: "i-lucide-code",
+          },
+          {
+            title: "Web - Frontend",
             description:
-              "HTML - CSS - Javascript/Typescript - TailwindCSS - Vue - Astro - shadcn-vue - NuxtUI - Vuetify",
+              "HTML - CSS - TailwindCSS - Vue - Astro - shadcn-vue - NuxtUI - Vuetify",
             icon: "i-lucide-panels-top-left",
           },
           {
-            date: "Web Technologies",
-            title: "Backend and Meta-frameworks",
-            description:
-              "Node - Bun - Nuxt - Express - Nitropack - Elysia.js - REST API - PostgreSQL - Supabase - Beekeeper",
+            title: "Web - Backend",
+            description: "Nuxt - Express - Nitro - Elysia.js",
             icon: "i-lucide-server-cog",
           },
           {
-            date: "Low Level Stuff",
-            title: "Other programming languages",
-            description: "Go - C/C++ ",
-            icon: "i-lucide-memory-stick",
+            title: "Mobile development",
+            description: "Flutter",
+            icon: "i-lucide-tablet-smartphone",
           },
           {
-            date: "Systems",
-            title: "OS and Networking",
+            title: "Databases",
+            description: "PostgreSQL - MariaDB - SQLite",
+            icon: "i-lucide-database",
+          },
+          {
+            title: "Systems & Networking",
             description:
-              "Linux - Containers - Wireshark - GNS3 - Virtualization - Embed Systems",
+              "GNU/Linux - Wireshark - GNS3 - Containers - Virtualization",
             icon: "i-lucide-cpu",
           },
           {
-            date: "Other",
-            title: "Various tools",
-            description: "Git - Docker - Podman - Forgejo",
+            title: "Others",
+            description: "Git - Docker - Podman - Forgejo - Godot",
             icon: "i-lucide-ellipsis",
           },
         ],
@@ -171,45 +171,45 @@ export const i18nConfigs: I18nOptions = {
         ],
       },
       skills: {
-        headline: " Je ne sais pas tout, je sais seulement ce que je sais. ",
-        title: "Les outils que j’utilise…",
-        description: "Toujours en train de progresser.",
-        spotlight: {
-          title: "Actuellement en train d’apprendre Godot",
-          description: "Dans mon envie de créer mes propres jeux.",
-        },
+        headline: " Je ne sais pas tout, je sais juste ce que je sais.",
+        title: "Les outils que j'utilise…",
+        description: "Essayant de progresser.",
         skills: [
           {
-            date: "Technologies Web",
-            title: "Frontend",
+            title: "Langages de programmation",
+            description: "JavaScript/TypeScript - Go - C/C++ - Dart",
+            icon: "i-lucide-code",
+          },
+          {
+            title: "Web - Frontend",
             description:
-              "HTML - CSS - JavaScript/TypeScript - TailwindCSS - Vue - Astro - shadcn-vue - NuxtUI - Vuetify",
+              "HTML - CSS - TailwindCSS - Vue - Astro - shadcn-vue - NuxtUI - Vuetify",
             icon: "i-lucide-panels-top-left",
           },
           {
-            date: "Technologies Web",
-            title: "Backend et Méta-frameworks",
-            description:
-              "Node - Bun - Nuxt - Express - NitroPack - Elysia.js - API REST - PostgreSQL - Supabase - Beekeeper",
+            title: "Web - Backend",
+            description: "Nuxt - Express - Nitro - Elysia.js",
             icon: "i-lucide-server-cog",
           },
           {
-            date: "Bas niveau",
-            title: "Autres langages de programmation",
-            description: "Go - C/C++",
-            icon: "i-lucide-memory-stick",
+            title: "Développement mobile",
+            description: "Flutter",
+            icon: "i-lucide-tablet-smartphone",
           },
           {
-            date: "Systèmes",
-            title: "OS et réseaux",
+            title: "Bases de données",
+            description: "PostgreSQL - MariaDB - SQLite",
+            icon: "i-lucide-database",
+          },
+          {
+            title: "Systèmes & Réseaux",
             description:
-              "Linux - Conteneurs - Wireshark - GNS3 - Virtualisation - Systèmes embarqués",
+              "GNU/Linux - Wireshark - GNS3 - Conteneurs - Virtualisation",
             icon: "i-lucide-cpu",
           },
           {
-            date: "Divers",
-            title: "Outils variés",
-            description: "Git - Docker - Podman - Forgejo",
+            title: "Autres",
+            description: "Git - Docker - Podman - Forgejo - Godot",
             icon: "i-lucide-ellipsis",
           },
         ],
