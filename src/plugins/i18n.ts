@@ -10,6 +10,11 @@ export const i18nConfigs: I18nOptions = {
      * English messages
      */
     en: {
+      banner: {
+        message: "Android will become a locked-down platform on September 1, 2026.",
+        action: "Take action",
+        tooltip: "Starting September 2026, a silent update, nonconsensually pushed by Google, will block every Android app whose developer hasn't registered with Google, signed their contract, paid up, and handed over government ID."
+      },
       header: {
         about: "About",
         skills: "Skills",
@@ -127,6 +132,11 @@ export const i18nConfigs: I18nOptions = {
      * French messages
      */
     fr: {
+      banner: {
+        message: "Android va devenir une plateforme verrouillée le 1 Septembre 2026.",
+        action: "Agir",
+        tooltip: "À partir de septembre 2026, une mise à jour silencieuse, imposée sans consentement par Google, bloquera toutes les applications Android dont le développeur ne s'est pas enregistré auprès de Google, n'a pas signé son contrat, n'a pas payé et n'a pas fourni de pièce d'identité officielle."
+      },
       header: {
         about: "À propos",
         skills: "Compétences",
