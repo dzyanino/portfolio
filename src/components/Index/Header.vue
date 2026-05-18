@@ -5,7 +5,7 @@ import { useI18n } from "vue-i18n";
 import type { NavigationMenuItem } from "@nuxt/ui";
 
 const route = useRoute();
-const { t } = useI18n();
+const { t, locale } = useI18n();
 
 const items = computed<NavigationMenuItem[]>(() => [
   {
@@ -82,9 +82,9 @@ watch(
       <LocaleSelector />
       <UTooltip :text="t('header.cv')">
         <a
-          href="/CV-MANASINTSOA-Doneli-Dzyanino.pdf"
-          download
-          target="_self"
+          :href="locale == 'fr' ? '/CV-MANASINTSOA-Doneli-Dzyanino-FR.pdf' : 'CV-MANASINTSOA-Doneli-Dzyanino.pdf'"
+          target="_blank"
+          rel="noopener noreferrer"
           style="text-decoration: none"
         >
           <UButton
